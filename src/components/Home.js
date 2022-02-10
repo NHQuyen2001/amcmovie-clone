@@ -11,7 +11,7 @@ import SearchBar from "./SearchBar";
 // Hook
 import { useHomeFetch } from "../hooks/useHomeFetch";
 // Image
-import NoImage from "../images/no_image.jpg";
+import NoImage from "../images/no-image-placeholder.png";
 
 const Home = () => {
   const { state, loading, error, searchTerm, setSearchTerm } = useHomeFetch();

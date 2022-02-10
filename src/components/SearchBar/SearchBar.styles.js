@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   height: 100px;
   background-color: var(--darkGrey);
   padding: 0 20px;
+  position: relative;
 `;
 
 export const Content = styled.div`
@@ -14,9 +15,11 @@ export const Content = styled.div`
   width: 100%;
   height: 55px;
   background-color: var(--medGrey);
-  margin: 0 auto;
   border-radius: 40px;
   color: var(--white);
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 
   img {
     position: absolute;
